@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features", // feature is business layer
         glue = "com/cydeo/step_definitions",      // glue is implementation layer (layer for technical part)
         dryRun = false,
-        tags = "@googleSearch", // it will run all @smoke tags scenarios
+        tags = "@git", // it will run all @smoke tags scenarios
         publish = true
 
 )
